@@ -1,5 +1,4 @@
 // 12S25021- GABRIEL IGNASIUS SINAGA
-
 import java.util.*;
 import java.lang.Math;
 
@@ -11,7 +10,8 @@ public class TFUNC {
 
         n = Integer.parseInt(input.nextLine());
         hasil = pertambahan(n);
-        System.out.println(hasil);
+        System.out.println("Bilangan yang dimasukkan : " + n);
+        System.out.println("Hasil perhitungan reskursif : " + hasil);
     }
     
     public static int pertambahan(int n) {
